@@ -1,0 +1,20 @@
+baseURL = "https://bughra.dev/"
+languageCode = "en-us"
+title = "bughra@mtny"
+theme = "risotto"
+author= "Emir Bugra"
+copyright = "© [bughra.dev](bughra.dev)"
+relativeURLs = true
+canonifyURLs = true
+
+[params.theme]
+        palette = "windows-95"
+
+# Menu configuration
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
+
