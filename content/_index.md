@@ -13,7 +13,7 @@ In my spare time, I love exploring the depths of Linux, using Arch btw. I'm also
 ## My Socials 
 - [Twitter](https://twitter.com/bughra)
 - [LinkedIn](https://www.linkedin.com/in/bughra/)
-- [GitHub](https://github.com/bughra)
+- [GitHub](https://github.com/bughra383)
 - [TryHackMe](https://tryhackme.com/p/bughra)
 
 ### Skills
