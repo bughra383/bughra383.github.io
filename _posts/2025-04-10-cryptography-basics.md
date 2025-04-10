@@ -124,6 +124,7 @@ Public key cryptography (asymmetric cryptography) uses a pair of mathematically 
 | Key size | 2048-4096 bits | 2048+ bits | 256-384 bits |
 | Quantum resistance | Vulnerable | Vulnerable | Vulnerable, but requires larger quantum resources |
 | Mathematical basis | Integer factorization | Discrete logarithm problem | Elliptic curve discrete logarithm problem |
+
 ## Authentication with Salted Passwords
 
 ### Key Question

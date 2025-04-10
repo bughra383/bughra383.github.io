@@ -430,7 +430,8 @@ app.post('/api/payment', (req, res) => {
 1. **Coverity** - Commercial static analyzer with race detection
 2. **Fortify** - Can detect certain race conditions
 3. **CodeQL** - Supports race condition detection queries:
-   ```ql
+
+```
    import cpp
    import semmle.code.cpp.dataflow.TaintTracking
 
@@ -451,7 +452,7 @@ app.post('/api/payment', (req, res) => {
        )
      }
    }
-   ```
+```
 
 ## Real-World Race Condition Examples
 

