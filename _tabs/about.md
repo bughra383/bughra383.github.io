@@ -32,7 +32,7 @@ When I’m not breaking things on purpose, I’m somewhere between an Evanescenc
 - **Instructor & Event Coordinator** - Özgür Yazılım ve Açık Kaynak Topluluğu
   - Part of my university’s FOSS community, where I help organize events and promote the adoption of free software and open-source principles. We provide 101 training sessions, seminars, and hands-on workshops to introduce these technologies to a diverse audience.
 - **My Contributions:**
-  - Led GNU/Linux 101 workshops as an instructor.
+  - Led GNU/Linux workshops as an instructor.
   - Conducted OSINT 101 sessions for beginners.
 
 
