@@ -46,6 +46,7 @@ categories: [Web Security, Server-Side Attacks]
   '; DROP TABLE users; -- -
   '; INSERT INTO users VALUES ('hacker','password'); -- -
   ```
+
 ## Common SQL Injection Techniques
 
 ### Authentication Bypass
