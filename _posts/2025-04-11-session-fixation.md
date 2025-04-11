@@ -2,8 +2,8 @@
 layout: post
 title: Session Fixation Attack
 date: 2025-04-11 17:30 +0300
-categories: [Web Security, Server-Side Attacks]
-tags: [session, session fixation, session hijacking, sesion security, cookie]
+categories: [Web Security, Server-side]
+tags: [session, session fixation, session hijacking, session security, cookie]
 ---
 
 ## Introduction

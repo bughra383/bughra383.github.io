@@ -2,7 +2,7 @@
 layout: post
 title: Session Management and Cookie Security
 date: 2025-04-11 17:30 +0300
-categories: [Web Security, Server-Side Attacks]
+categories: [Web Security, Server-side]
 tags: [session, csrf, xss, session fixation, cookie, session hijacking]
 ---
 

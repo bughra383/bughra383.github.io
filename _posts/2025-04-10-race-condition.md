@@ -2,7 +2,7 @@
 layout: post
 title: Race Condition
 date: 2025-04-10 17:30 +0300
-category: [Web Security, Server-Side Attacks]
+category: [Web Security, Server-side]
 ---
 
 ## Introduction

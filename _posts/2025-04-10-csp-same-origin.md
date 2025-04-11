@@ -2,7 +2,7 @@
 layout: post
 title: CSP & Same-Origin Policy Bypass
 date: 2025-04-10 16:44 +0300
-category: [Web Security, Client-Side Attacks]
+category: [Web Security, Client-side]
 tags: [web security, csp, same-origin policy]
 ---
 

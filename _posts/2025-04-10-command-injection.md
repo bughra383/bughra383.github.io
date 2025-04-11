@@ -2,7 +2,7 @@
 layout: post
 title: Command Injection
 date: 2025-04-10 17:15 +0300
-categories: [Web Security, Server-Side Attacks]
+categories: [Web Security, Server-side]
 tags: [linux, windows, command injection]
 ---
 

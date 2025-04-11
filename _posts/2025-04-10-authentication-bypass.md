@@ -2,7 +2,7 @@
 layout: post
 title: Authentication Bypass
 date: 2025-04-10 17:14 +0300
-categories: [Web Security, Server-Side Attacks]
+categories: [Web Security, Server-side]
 tags: [authentication]
 ---
 

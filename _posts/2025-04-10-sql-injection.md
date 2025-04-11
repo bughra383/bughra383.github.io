@@ -2,7 +2,7 @@
 layout: post
 title: SQL Injection
 date: 2025-04-10 17:33 +0300
-categories: [Web Security, Server-Side Attacks]
+categories: [Web Security, Server-side]
 ---
 
 ## Types of SQL Injection
