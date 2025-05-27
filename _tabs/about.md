@@ -29,11 +29,13 @@ When I’m not breaking things on purpose, I’m somewhere between an Evanescenc
 ## Volunteering and Experience
 
 ### Volunteering
-- **Instructor & Event Coordinator** - Özgür Yazılım ve Açık Kaynak Topluluğu
-  - Part of my university’s FOSS community, where I help organize events and promote the adoption of free software and open-source principles. We provide 101 training sessions, seminars, and hands-on workshops to introduce these technologies to a diverse audience.
+- **President** - Özgür Yazılım ve Açık Kaynak Topluluğu
+  - I lead the Free and Open Source Software (FOSS) community at Ondokuz Mayıs University. Our mission is to foster open-source culture, encourage cross-disciplinary collaboration, and create an inclusive environment where students of all backgrounds can learn and contribute. We organize 101-level trainings, technical workshops, and community events to empower individuals with free software tools and philosophy.
 - **My Contributions:**
-  - Led GNU/Linux workshops as an instructor.
-  - Conducted OSINT 101 sessions for beginners.
+  - Coordinated and led community-wide events, technical workshops, and seminars.
+  - Delivered training sessions on GNU/Linux, OSINT, and other FOSS-related topics.
+  - Helped grow a self-sustaining contributor network among students.
+  - Promoted inclusive learning by designing beginner-friendly content and mentoring newcomers.
 
 
 ## Education
