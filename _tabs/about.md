@@ -6,7 +6,7 @@ order: 4
 
 I'm a cybersecurity enthusiast focused on Penetration Testing, Web Application Security, and Red Teaming. I enjoy building custom tools, exploiting web apps, and playing offense more than I probably should. I occasionally dive into CTFs to stay sharp and test new techniques.
 
-As part of my university's FOSS community, I organize events and train newcomers to embrace the open-source way — and yeah, I use Arch, btw.
+As the president of my university's FOSS community, I lead our efforts in organizing events and mentoring newcomers to embrace the open-source philosophy — and yeah, I use Arch, btw.
 
 When I’m not breaking things on purpose, I’m somewhere between an Evanescence track and a dense technical book. Linux System Administration is my next rabbit hole.
 
